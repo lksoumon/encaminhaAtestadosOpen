@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         encaminhar_atestado_Open
 // @namespace    http://tampermonkey.net/
-// @version      v1.01
+// @version      v1.02
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/ged/hwmgedatestado.aspx
@@ -53,7 +53,7 @@ function coletaDados1() {
 
       //alert (output);
       console.log(output);
-      //submit_post_via_hidden_form('https://open4school.com.br/open/secretaria/importa_sigeduca.php',output);
+      submit_post_via_hidden_form('https://open4school.com.br/open/secretaria/importa_sigeduca.php',output);
   }else{
   alert("Aluno sem atestado / Atestados não carregados");
   }
