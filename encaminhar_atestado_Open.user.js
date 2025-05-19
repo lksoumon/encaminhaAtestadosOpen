@@ -7,6 +7,8 @@
 // @match        http://sigeduca.seduc.mt.gov.br/ged/hwmgedatestado.aspx
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
+// @updateURL    https://github.com/lksoumon/encaminhaAtestadosOpen/raw/refs/heads/main/encaminhar_atestado_Open.user.js
+// @downloadURL  https://github.com/lksoumon/encaminhaAtestadosOpen/raw/refs/heads/main/encaminhar_atestado_Open.user.js
 // ==/UserScript==
 
 //CSS DOS BOTÕES //       2158729
