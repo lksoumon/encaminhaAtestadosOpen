@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         encaminhar_atestado_Open
 // @namespace    http://tampermonkey.net/
-// @version      v1.0
+// @version      v1.01
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @match        http://sigeduca.seduc.mt.gov.br/ged/hwmgedatestado.aspx
@@ -72,7 +72,7 @@ function submit_post_via_hidden_form(url, params) {
         //if (params.hasOwnProperty(i)) {
             $('<input type="hidden" />').attr({
                 value: params,
-                name: 'data'
+                name: 'data_atestados'
             }).appendTo(f);
         //}
    // }
